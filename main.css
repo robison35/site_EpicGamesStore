@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #7775d6;
+    color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button,
+section .good-of {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Store-front {
+    height: 450px;
+    margin-right: 32px;
+
+}
+
+.brand-list img {
+    height: 24px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #7775d6;
+}
+
+section h2 {
+    margin-bottom: 16px;  
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #7775d6;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #211f9b;
+}
+
+input:focus, textarea:focus {
+    outline-color: #211f9b;
+}
+
+footer {
+    background-color: #7775d6;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+.container .good-of {
+    height: 250px;
+}
+
+section .good-of {
+    margin-right: 32px;
+}
+
+.container .good-of {
+    padding: 24px 0;
+}
+
+.container .Playstt {
+    height: 350px;
+}
